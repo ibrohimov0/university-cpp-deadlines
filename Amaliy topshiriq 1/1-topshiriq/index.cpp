@@ -6,7 +6,7 @@ int main() {
     double x,y,A,B;
     cout<<"x=";
     cin>>x;
-    cout<<endl<<"y=";
+    cout<<"y=";
     cin>>y;
 
     double cot_argument = y/(pow(x,2)+pow(y,2));
@@ -22,5 +22,5 @@ int main() {
     B = pace_step/den_step;
 
     cout<<"A="<<A<<endl;
-    cout<<"B="<<B<<endl;
+    cout<<"B="<<B;
 }
