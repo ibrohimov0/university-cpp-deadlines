@@ -21,6 +21,7 @@ int main() {
     double den_step = 3.2/10000 + 2*pow(x,2) + sqrt_step;
     B = pace_step/den_step;
 
-    cout<<"A="<<A<<endl;
-    cout<<"B="<<B;
+    cout<<"A="<<A<<endl<<"B="<<B;
+    
+    return 0;
 }

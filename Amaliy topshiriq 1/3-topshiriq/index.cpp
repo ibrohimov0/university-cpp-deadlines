@@ -22,5 +22,6 @@ int main() {
     y=first_step+second_step-b*x;
 
     cout<<"y="<<y;
+    
     return 0;
 }
